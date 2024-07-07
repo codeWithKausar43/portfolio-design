@@ -1,4 +1,7 @@
-
+*{
+    margin:0xp;
+    padding:0px;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -48,7 +51,8 @@ nav ul {
  .header{
     background-image:url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
-     
+     background-color:#FFF8F3;
+      
      background-position:top left,bottom right;
  }
 .benner{
@@ -69,4 +73,36 @@ nav ul {
     font-weight:bold;
     font-size:55px;
 }
- 
+/* section design */
+main{
+    background-color:#FFF8F3;
+    max-width:1020px;
+    display:flex;
+    justify-content:space-around;
+    margin:0 auto;
+    padding:20px 30px;
+    margin-top:100px;
+    text-align:center;
+
+}
+.info{
+    margin:0 auto;
+    margin-top:30px;
+    display:flex;
+
+}
+.section-title{
+    margin-top:40px;
+}
+.about{
+     background-color:white;
+     color:black;
+
+}
+.about-items{
+     
+}
+ .main-item{
+    display:flex;
+    justify-content:space-around;
+ }
