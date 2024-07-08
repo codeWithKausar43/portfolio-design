@@ -1,5 +1,5 @@
-*{
-    margin:0xp;
+  *{
+    margin:0px;
     padding:0px;
 }
 .open-sans-normal {
@@ -9,9 +9,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-   
 }
-
 .black-1{
     background-color:#FD6E0A;
     color:white;
@@ -19,7 +17,7 @@
 .black-2{
     color:black;
 }
-nav{
+ .nav{
     display:flex;
     margin:0 100px;
     justify-content:space-between;
@@ -30,12 +28,12 @@ nav{
     color:000000;
 }
 .primary-color{
-    color:#FD6E0A;
+    color:#ffc397;
 }
 nav ul {
     list-style:none;
     display:flex;
-    justify-content:center;
+    justify-content:right;
     align-items:center;
 }
  li a{
@@ -47,62 +45,172 @@ nav ul {
     padding:18px 35px;
     border-radius:5px;
     justify-content:center;
+    margin-top:11px;
+    
 }
  .header{
     background-image:url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
      background-color:#FFF8F3;
-      
      background-position:top left,bottom right;
  }
 .benner{
   display:flex;
-  margin:0px 38px 0px 200px;
-    
+  margin:0px 38px 0px 200px;  
 }
 .benner-conteiner{
     margin-top:177px;
     line-clamp: none;
 }
-.heading-4{
-    font-weidth:bolder;
-    font-size:25px;
-    margin-bottom:5px;
-}
 .heading-1{
-    font-weight:bold;
-    font-size:55px;
+    margin-bottom:11px;
+    margin-top:11px;
 }
-/* section design */
-main{
-    background-color:#FFF8F3;
-    max-width:1020px;
-    display:flex;
-    justify-content:space-around;
-    margin:0 auto;
-    padding:20px 30px;
-    margin-top:100px;
+ 
+
+/* section 2 desing */
+.skills .skill heading{
+    font-weight:bolder;
+    font-size:45px;
     text-align:center;
-
+    margin-top:50px;
 }
-.info{
+.skill-heading{
+    font-weight:bold;
+    font-size:20px;
+}
+.skill{
+    max-width:700px;
     margin:0 auto;
-    margin-top:30px;
+    text-align:center;
+    margin-bottom:50px;
+}
+ 
+.container{
     display:flex;
+    max-width:1200px;
+    margin:0 auto;
+    gap:24px;
+    color:#474747;
+    
+}
+
+/* section skills */
+.skill1{
+    padding:20px;
+    background-color:white;
+    box-shadow:0px 6px 50px 0px #000000;
+    border-radius:5px;
+     padding:10px;
+}
+.Resume{
+    display:flex;
+}
+
+#skills-section-contrainer{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    max-width:1200px;
+    margin:0 auto;
+}
+.skill-description{
+    font-size:16px;
 
 }
-.section-title{
-    margin-top:40px;
+.skill-container{
+    margin-bottom:49px;
 }
-.about{
-     background-color:white;
-     color:black;
+.skill-hd{
+    text-align:center;
+    margin-top:50px;
+    font-weight:600px;
+    font-size:35px;
+}
 
+.btn-margin{
+    text-align:center;  
 }
-.about-items{
-     
+.input-style{
+    width:400px;
+    height:30px;
+    padding:3px 10px;
+    gap:64px;
+    border-red
 }
- .main-item{
+ /* section-about-container */
+ .section-about-container{
+   max-width:700px;
+    min-height:400px;
+    margin:0 auto;
+     background-color: #e67e34;
+    margin-top:90px;
+    margin-bottom:90px;
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
+    align-items:center;
  }
+ .about-content{
+    width:450px;
+    height:240px;
+    margin:0 auto;
+     
+    text-align:justify;
+    padding:4px;
+     
+ }
+ .section-items-content{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     gap:23px;
+     padding-top:23px;
+    
+ }
+ .list-content{
+    text-align:center;
+ }
+ #btn{
+    text-align: center;
+    
+ }
+ .button-primari{
+    background-color:#e67e34;
+    border:1px solid tomato;
+    padding:14px 26px;
+    color:white;
+    border-radius:7px;
+    margin-bottom:50px;
+ }
+ /* footer section style */
+ .footer-column{
+        display:flex;
+        padding:130px 230px;
+        gap:100px;
+        background-color:#f3decf
+ }
+ .column-container{
+    width:50%;
+ }
+input[type="text"], input[type="email"], footer textarea{
+    width:100%;
+    height:54px;
+    padding:9px;
+    font-size:18px;
+    background-color:white;
+    color:#474747;
+    margin-bottom:20px;
+    border-radius:8px;  
+    border:none;
+}
+.btn1{
+    background-color:#e67e34;
+    color:white;
+    font-size:18px;
+    font-weight:bolder;
+    padding:20px 34px;
+    border:none;
+    border-radius:8px;
+    
+}
+ 
